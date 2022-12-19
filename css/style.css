@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.alert-container{
+
+}
+
+.callout-container {
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1583873463426-776e17c904cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdoaXNreXxlbnwwfHwwfHw%3D&w=1000&q=80) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.quotes-container {
+
+}
+
+.features-container {
+
+}
+
+.favorites-container {
+
+}
+
+/*buttons*/
+
+.signup-btn {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+    background-color: #af3818;
+    color: #fff;
+}
+
+.signup-btn:hover,
+.signup-btn:active,
+.signup-btn:focus,
+.signup-btn:active:focus {
+    background-color: #fff;
+    color: #af3818;
+}
+
+/*block dividers*/
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+}
+    
+ .block-divider-orange {   
+    background-color: #af3818;
+}
+
+.block-divider-short{
+    width: 35px;
+}
+
+/*jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: lightgray;
+}
+
+.jumbotron .lead {
+    .lead
+        margin: 25px 0;
+        color: #A7A7A7;
+}
