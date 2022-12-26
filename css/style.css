@@ -2,9 +2,23 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.alert-container{
+/*alert*/
 
+.alert-container{
+    padding-left: 0;
+    padding-right: 0;
 }
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    color: #444d54;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+/*callout*/
 
 .callout-container {
     height: 100vh;
@@ -28,16 +42,99 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+/*content*/
+
+.container-wrapper {
+
+}
+
+.container-wrapper-red {
+    background-color: #af3818;
+    color: #fff;
+}
+
+.content-wrapper {
+    margin-top: 25px;
+}
+
+.table-wrapper {
+    margin-top: 50px;
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.content-wrapper {
+    margin-top: 25px;
+}
+
 .quotes-container {
 
 }
 
+/*features*/
+
 .features-container {
 
+}
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+.feature .btn {
+    background-color: #fff;
+    border-color: #fff;
+    color: #af3818;
+    border-radius: 23px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.feature p {
+    margin-top: 16px;
 }
 
 .favorites-container {
 
+}
+
+/*navbar*/
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;   
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
 }
 
 /*buttons*/
@@ -58,20 +155,27 @@ body {
     color: #af3818;
 }
 
+
 /*block dividers*/
 
 .block-divider {
     width: 75px;
     height: 5px;
     border: 0;
+    background-color: #444;
 }
     
  .block-divider-orange {   
     background-color: #af3818;
 }
 
+.block-divider-white {
+    background-color: #fff;
+}
+
 .block-divider-short{
     width: 35px;
+    margin-bottom: 30px;
 }
 
 /*jumbotron*/
@@ -97,3 +201,18 @@ body {
         margin: 25px 0;
         color: #A7A7A7;
 }
+
+/*pageheaders*/
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+
+
